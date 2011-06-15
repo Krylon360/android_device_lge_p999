@@ -16,5 +16,6 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_PREBUILT_KERNEL := device/lge/p999/kernel
 
 BOARD_VOLD_MAX_PARTITIONS := 8
+BOARD_UMS_LUNFILE := /sys/devices/platform/usb_mass_storage/lun0/file
 
-
+TARGET_USERIMAGES_USE_EXT4 := true
